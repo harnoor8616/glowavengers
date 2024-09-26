@@ -1,0 +1,48 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+img {
+    border-radius: 50%;
+    height: 15vh;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+#one:hover {
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 11px 16px rgb(237, 150, 10);
+}
+
+#two:hover {
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 11px 16px rgb(107, 169, 66);
+}
+
+#three:hover {
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 11px 16px rgb(19, 110, 238);
+}
+
+#four:hover {
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 11px 16px rgb(7, 7, 107);
+}
+
+#five:hover {
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 11px 16px rgb(166, 0, 0);
+}
